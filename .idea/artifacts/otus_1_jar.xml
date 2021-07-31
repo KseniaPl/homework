@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="otus_1:jar">
+    <output-path>$PROJECT_DIR$/artifacts/otus_1_jar</output-path>
+    <root id="archive" name="otus_1.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/project/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="library" level="project" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.12.3:jar" />
+      <element id="library" level="project" name="sbt: com.fasterxml.jackson.core:jackson-core:2.12.3:jar" />
+      <element id="library" level="project" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.12.3:jar" />
+      <element id="library" level="project" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" />
+      <element id="library" level="project" name="sbt: org.json4s:json4s-ast_2.13:4.0.1:jar" />
+      <element id="library" level="project" name="sbt: org.json4s:json4s-core_2.13:4.0.1:jar" />
+      <element id="library" level="project" name="sbt: org.json4s:json4s-jackson-core_2.13:4.0.1:jar" />
+      <element id="library" level="project" name="sbt: org.json4s:json4s-jackson_2.13:4.0.1:jar" />
+      <element id="library" level="project" name="sbt: org.json4s:json4s-scalap_2.13:4.0.1:jar" />
+      <element id="library" level="project" name="sbt: org.scala-lang:scala-library:2.13.6:jar" />
+      <element id="library" level="module" name="sbt: sbt-and-plugins" module-name="otus_1-build" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/scala/MyApp.scala" />
+      <element id="module-output" name="otus_1" />
+    </root>
+  </artifact>
+</component>
